@@ -18,7 +18,7 @@ Database Model:
 
 books(id, title, author, pages, rating)
 
-Run:
-  pip install flask requests
-  python app.py
-  Login: admin / password
+Run: /n
+  pip install flask requests /n
+  python app.py /n
+  Login: admin / password /n
