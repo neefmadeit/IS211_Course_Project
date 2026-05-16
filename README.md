@@ -17,3 +17,8 @@ Google Books API for fetching book data
 Database Model:
 
 books(id, title, author, pages, rating)
+
+Run:
+pip install flask requests
+python app.py
+Login: admin / password
