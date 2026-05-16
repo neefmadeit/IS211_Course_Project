@@ -57,7 +57,7 @@ def index():
         isbn = request.form["isbn"]
 
         try:
-            time.sleep(1)   # ✅ ADDED DELAY (rate limit protection)
+            time.sleep(1)
 
             url = f"https://www.googleapis.com/books/v1/volumes?q=isbn:{isbn}"
             response = requests.get(url)
